@@ -1,0 +1,93 @@
+body {
+  background-color:#F3F1ED;
+  font-family:'ABeeZee', sans-serif;
+  color: #575F7D;
+  font-size: 16px;
+  line-height:1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1,h2 {
+  font-family:'Onest', serif;
+}
+
+h1 {
+  color:#007979;
+}
+
+h2{
+  color:#FFA673
+}
+
+a{
+  color: #007979;
+}
+
+a:hover {
+  color: #8B5E3C;
+}
+
+#avatar-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #ffffff, 0 0 0 8px #007979;
+}
+
+.card{
+  width: 50%;
+  background-color: #ffffff;
+  margin: 20px 0;
+  padding: 32px 20px;
+  text-align: center;
+  border-radius: 28px;
+}
+
+.container{
+  margin: 20px, 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-inline {
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+}
+
+.list-inline li {
+display: inline-block;
+font-size: 50px;
+margin: 10px;
+}
+
+.btn-green{
+  border-radius: 14px ;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #007979;
+  color :white;
+}
+
+.btn-green:hover{
+  background-color: #8B5E3C;
+  color :white;
+}
+
+.margin-add {
+  margin-bottom: 35px;
+}
+
+@media (max-width: 900px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .card{
+    width: 90%;
+  }
+}
